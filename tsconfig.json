@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["ES2019", "DOM"],
+    "target": "ES2019",
+    "strict": true,
+    "declaration": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "jest"],
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts", "src/**/**/*.ts", "**/*.ts"],
+  "exclude": ["node_modules", "**/**/__tests__", "**/**/**/__tests__", "**/*.test.ts"],
+  "compileOnSave": false
+}

@@ -1,0 +1,16 @@
+config/*.yaml
+node_modules
+.vscode
+DDL
+coverage
+*.md
+docker
+tools
+sw-api-reference.html
+logs
+.*
+!.babelrc
+tests
+*.test.ts
+.git*
+kubernetes
