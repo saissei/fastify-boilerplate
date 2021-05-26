@@ -12,3 +12,5 @@ dist
 coverage
 config/*.*
 !config/test.*
+!.vscode
+!.vscode/*.json

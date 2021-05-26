@@ -16,51 +16,12 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "extends": [
-    "prettier/@typescript-eslint",
-    "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:prettier/recommended",
     "prettier"
   ],
 
   "rules": {
-    "no-unused-vars": "off",
-    "no-var": 2,
-    "eqeqeq": "error",
-    "quotes": ["error", "single"],
-    "semi": "error",
-    "keyword-spacing": 2,
-    "block-spacing": 2,
-    "space-before-blocks": ["warn", "always"],
-    "space-before-function-paren": ["warn", "never"],
-    "space-in-parens": ["warn", "never"],
-    "strict": ["warn", "global"],
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/type-annotation-spacing": [
-      "error",
-      {
-        "before": false,
-        "after": true,
-        "overrides": {
-          "arrow": {
-            "before": true,
-            "after": true
-          }
-        }
-      }
-    ],
-    "@typescript-eslint/member-delimiter-style": [
-      "error",
-      {
-        "multiline": {
-          "delimiter": "semi"
-        },
-        "singleline": {
-          "delimiter": "semi"
-        }
-      }
-    ],
-    "@typescript-eslint/consistent-type-definitions": "off"
+    "prettier/prettier": "error"
   }
 }
