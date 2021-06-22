@@ -1,0 +1,12 @@
+version: "3"
+services:
+  server:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    environment:
+      NODE_ENV: production
+    image: fastify-boilerplate:v1.0.0
+    container_name: fastify-boilerplate
+    volumes:
+      - ../config:/app/config
